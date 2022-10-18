@@ -25,12 +25,15 @@
 | name_tertiary | 词典的别名 |
 | author | 词典作者 |
 | publisher | 出版社 |
+| publish_version | 版次 |
 | publish_at | 词典的出版日期 unix timestamp |
 | info | 词典信息 |
 | maker | SQLite 词典制作者 |
 | make_at | 制作 SQLite 电子词典的日期 unix timestamp |
 | update_at | 更新 SQLite 电子词典的日期 unix timestamp |
 | maker_comments | SQLite 电子词典制作者备注 |
+| digital_dict_version | SQLite 电子词典版本 |
+| change_log | SQLite 电子词典更新日志 |
 | ---技术层面--- | |
 | encoding | 编码 utf8 或者 utf16 |
 | zstd_compress_level | 压缩等级 |
