@@ -48,6 +48,7 @@
 | :--- | :--- | :--- | :--- |
 | id | int | AI PK | - | 
 | key | text | indexed | 词头 |
+| display_key | text | | 显示的词头，如有的词头里面有 HTML |
 | value | blob | zstd 压缩数据 | 词条数据 |
 | seq | int | nullable | 词条顺序 |
 
